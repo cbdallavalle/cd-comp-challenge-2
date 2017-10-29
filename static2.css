@@ -1,0 +1,369 @@
+@font-face {
+  font-family: 'pokemon';
+  src: url('font/Pokemon-solid.ttf');
+}
+
+article {
+  width: 256px;
+  height: 377px;
+  border: 2px solid black;
+  margin: 10px;
+  border: 12px solid #E9C342;
+  margin: 10px;
+  border-radius: 2%;
+  box-shadow: 10px 10px 25px #000; 
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  background: url('images/pokeball.png') no-repeat;
+  background-size: cover;
+  border: none;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 9em;
+  background-color: #ffffff;
+  border-bottom: 23px solid black;
+}
+
+#pokicard {
+  position: absolute;
+  color: #F9CC46;
+  width: 30em;
+  margin: -.2em -.4em;
+  top: 0.3em;
+  left: 0.3em;
+}
+
+main {
+  background-image: url('images/pokemonboy.png');
+  background-repeat: no-repeat;
+  background-color: #a94e37;
+  padding: 2em 1em 3em 1em;
+  background-size: 70em;
+    background-position: right -3em top 3em;
+}
+
+body {
+  background-color: white;
+  font-family: Gill Sans;
+  margin: 0;
+}
+
+h4 {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+h3 {
+  margin: 0em 0em 0em 0em;
+  display: none;
+}
+
+h5 {
+  margin: 0 0 0 .8em;
+  letter-spacing: -0.05em;
+  font-weight: 600;
+  font-size: 1.22em;
+  padding-right: 12px;
+}
+
+ul {
+  display: inline-block;
+  position: absolute;
+  bottom: .5em;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-left: 4em;
+  font-weight: 800;
+}
+
+
+p {
+  margin-top: 0em;
+  font-size: .9em;
+  font-family: 'Gentium Book Basic', serif;
+  background-color: #CFAF3D;
+  box-shadow: inset 0 0 7px #000000;
+  text-align: center;
+  padding: 0.15em;
+}
+
+div {
+  background-color: #eae4e4;
+  width: 91%;
+  height: 2.7em;
+  background-color: #f1cc60;
+  margin: auto;
+  box-shadow: inset 0 0 7px #000000;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  padding: 0.3em;
+}
+
+hr {
+  width: 91%;
+  background-color: black;
+  border: none;
+  height: .12em;
+  margin-top: 1.2em;
+}
+
+.deck-display {
+  margin: 0;
+  color: #FFFFFF;
+  -webkit-text-stroke-width: .07em;
+  -webkit-text-stroke-color: black;
+}
+
+.card-header {
+  position: relative;
+  width: 100%;
+  height: 130px;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+.card-content {
+  margin: 0em;
+  height: 65.4%;
+  box-shadow: inset 0 0 10px #000000;
+  position: relative;
+}
+
+.weak-icon {
+  position: absolute;
+  bottom: .4em;
+  width: 1.5em;
+  left: 2em;
+}
+
+.logos {
+  width: 50px;
+  height: auto;
+}
+
+.login {
+  padding: .5em;
+  background-color: #ededed;
+}
+
+.growlithe {
+  background-image: url('images/growlithe.jpg');
+  background-size: cover;
+}
+
+.fire {
+  background-image: url('images/fire.png');
+  background-size: cover;
+}
+
+.bulbasaur {
+  background-image: url('images/bulbasaur.jpg');
+  background-size: cover;
+  background-position: 0% 85%;
+}
+
+.grass {
+  background-image: url('images/grass.png');
+  background-size: cover;
+}
+
+.slowpoke {
+  background-image: url('images/slowpoke.jpg');
+  background-size: cover;
+  background-position: 0% 85%;
+}
+
+.psy {
+  background-image: url('images/psy.png');
+  background-size: cover;
+}
+
+.cubone {
+  background-image: url('images/cubone.png');
+  background-size: cover;
+  background-position: 0% 45%;
+}
+
+.ground {
+  background-image: url('images/ground.png');
+  background-size: cover;
+}
+
+.wigglytuff {
+  background-image: url('images/wigglytuff.png');
+  background-size: cover;
+  background-position: 0% 45%;
+}
+
+.pink {
+  background-image: url('images/pink.png');
+  background-size: cover;
+}
+
+.raichu {
+  background-image: url('images/pikachu.jpg');
+  background-size: cover;
+  background-position: 0% 80%;
+}
+
+.lightening {
+  background-image: url('images/lightening.png');
+  background-size: cover;
+}
+
+.horsea {
+  background-image: url('images/horsea.jpg');
+  background-size: cover;
+  background-position: 0% 45%;
+}
+
+.water {
+  background-image: url('images/water.png');
+}
+
+.eevee {
+  background-image: url('images/eevee.jpg');
+  background-size: cover;
+  background-position: 0% 45%;
+}
+
+.normal {
+  background-image: url('images/normal.png');
+}
+
+.hp {
+  position: absolute;
+  top: .6em;
+  right: .9em;
+  margin: 0;
+}
+
+.hpnumber {
+  position: absolute;
+  top: 0em;
+  right: .33em;
+  font-size: 1.9em;
+}
+
+.card-deck {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.login {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+}
+
+
+.attack {
+  margin: .8em 0 0 1em;
+  font-weight: 800;
+}
+
+.weakness {
+  margin: 0.4em 0 0 1em;
+}
+
+.weak-icon {
+  margin: 0 0 0 .8em;
+}
+
+#battles {
+  position: absolute;
+  bottom: -0.03em;
+  left: 1.8em;
+  width: 2.4em;
+}
+
+#pokedex {
+  position: absolute;
+  bottom: -0.1em;
+  left: 10.6em;
+  width: 2.7em;
+}
+
+#deck {
+  position: absolute;
+  bottom: -0.4em;
+  left: 20.5em;
+  width: 3.12em;
+}
+
+@media screen and (max-width: 633px) {
+  article {
+    margin-left: .1em;
+  }
+
+  span {
+    display: none;
+  }
+
+  main {
+    padding-left: .6em;
+    background-size: 70em;
+    background-position: right -3em top 3em;
+  }
+
+  #pokicard {
+    margin: -.2em -.4em;
+    width: 16em;
+    left: 1.8em;
+  }
+
+  #deck,
+  #battles,
+  #pokedex {
+    position: absolute;
+  }
+
+  #battles {
+    left: 1.2em;
+  }
+
+  #pokedex {
+    left: 7.7em;
+  }
+
+  #deck {
+    left: 14.5em;
+  }
+
+}
+
+@media screen and (min-width: 633px) and (max-width: 1531px) {
+  header {
+    height: 13em;
+  }
+
+  #pokicards {
+    width: 19em;
+  }
+}
+
+@media screen and (min-width: 1531px) {
+  header {
+    height: 13em;
+  }
+
+  main {
+    padding: 0 20% 0 5%;
+    background-position: right 15% top 3em;
+  }
+}
