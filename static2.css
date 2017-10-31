@@ -37,7 +37,7 @@ header {
 #pokicard {
   position: absolute;
   color: #F9CC46;
-  width: 30em;
+  width: 26em;
   margin: -.2em -.4em;
   top: 0.3em;
   left: 0.3em;
@@ -306,13 +306,58 @@ hr {
   width: 3.12em;
 }
 
-@media screen and (max-width: 633px) {
+@media screen and (max-width: 415px) {
+  nav {
+    position: fixed;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 3.5em;
+    bottom: 0;
+    z-index: 10;
+  }
+
+  header {
+    height: 6.5em;
+  }
+
+  span {
+    display: none;
+  }
+
+  ul {
+    position: unset;
+  }
+
+  .login {
+    font-family: 0.7em;
+    padding: 0.3em;
+  }
+
+  #pokicard {
+    width: 15em;
+    margin: auto;
+  }
+
+  #deck {
+    left: 84%;
+  }
+
+  #pokedex {
+    left: 44%;
+  }
+
+  #battles {
+    left: 4%;
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 633px) {
   article {
     margin-left: .1em;
   }
 
   span {
-    display: none;
+    font-size: 9px;
   }
 
   main {
@@ -334,15 +379,15 @@ hr {
   }
 
   #battles {
-    left: 1.2em;
+    left: 1.8em;
   }
 
   #pokedex {
-    left: 7.7em;
+    left: 8.3em;
   }
 
   #deck {
-    left: 14.5em;
+    left: 15.7em;
   }
 
 }
